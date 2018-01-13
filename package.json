@@ -1,0 +1,42 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para react",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm i -g gulp",
+    "start": "gulp",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "jsx"
+  ],
+  "author": "Paulo Andrade",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.0.0-beta.37",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browserify": "^15.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-connect": "^5.2.0",
+    "gulp-notify": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
