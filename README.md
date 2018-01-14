@@ -5,9 +5,15 @@ Entorno de desarrollo para react, utilizando gulp, babel y browserify.
 
 # Contenido
 
+## Articulo
+
+En el blog de codeando publicamos un articulo donde damos una introducción a React y vemos paso a paso como crear este entorno de desarrollo, visita el articulo.-
+
+[Introducción a React](http://blog.codeando.org/articulos/introduccion-a-react-creando-aplicacion-basica.html)
+
 ## Instalación
 
-Puedes [descargar](https://github.com/Codeandomx/development-environment-react/archive/master.zip) el contenido del repositorio directamente o clonar el repositorio.-
+Puedes [descargar](https://github.com/Codeandomx/development-environment-react/archive/master.zip) el contenido del repositorio directamente o clonarlo con el siguiente comando.-
 
 ```js
 git clone https://github.com/Codeandomx/development-environment-react.git my-project
@@ -67,4 +73,3 @@ Si encuentras algún error en el código o la forma de optimizarlo, puedes infor
 [Crear issue](https://github.com/codeandomx/development-environment-react/issues)
 
 Muchas gracias!!!
-
