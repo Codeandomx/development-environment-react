@@ -10,7 +10,7 @@ import connect from 'gulp-connect';
 gulp.task('transform', () => {
     return gulp.src('./app/src/**/*.jsx')
         .pipe(babel({
-            presets: ["react", "es2015"]
+            presets: ["react", "env"]
         }))
         .pipe(gulp.dest('./app/dist'));
 });
