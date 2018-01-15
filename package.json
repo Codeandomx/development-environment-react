@@ -1,11 +1,10 @@
 {
   "name": "react-project",
   "version": "1.0.0",
-  "description": "Proyecto de prueba para react",
+  "description": "Entorno de desarrollo para aplicaciones con React",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm i -g gulp babel-cli",
     "start": "gulp",
     "dev": "gulp"
   },
@@ -16,6 +15,10 @@
   ],
   "author": "Paulo Andrade",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codeandomx/development-environment-react"
+  },
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"

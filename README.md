@@ -19,10 +19,16 @@ Puedes [descargar](https://github.com/Codeandomx/development-environment-react/a
 git clone https://github.com/Codeandomx/development-environment-react.git my-project
 ```
 
-Ingresamos al directorio del proyecto e instalamos las dependencias necesarias.-
+Ingresamos al directorio del proyecto e instalamos las dependencias globales.-
 
 ```js
 cd my-project
+npm i -g gulp babel-cli
+```
+
+Instalamos las dependencias del proyecto.-
+
+```js
 npm install
 ```
 
