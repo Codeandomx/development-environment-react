@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm i -g gulp babel",
+    "preinstall": "npm i -g gulp babel-cli",
     "start": "gulp",
     "dev": "gulp"
   },
@@ -22,7 +22,6 @@
   },
   "devDependencies": {
     "@babel/register": "^7.0.0-beta.37",
-    "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
