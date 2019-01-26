@@ -9,7 +9,7 @@ Entorno de desarrollo para react, utilizando gulp, babel y browserify.
 
 En el blog de codeando publicamos un articulo donde damos una introducción a React y vemos paso a paso como crear este entorno de desarrollo, visita el articulo.-
 
-[Introducción a React](http://blog.codeando.org/articulos/introduccion-a-react-creando-aplicacion-basica.html)
+[Introducción a React](http://blog.codeando.club/articulos/introduccion-a-react-creando-aplicacion-basica.html)
 
 ## Instalación
 
@@ -30,6 +30,16 @@ Instalamos las dependencias del proyecto.-
 
 ```js
 npm install
+```
+
+Nota: Si te salen algunos mensajes de advertencias como los siguientes, solo ignoralos, son un problema de la libreria gulp.-
+
+```js
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
 ```
 
 Listo ya podemos trabajar.
@@ -70,7 +80,7 @@ El archivo HTML principal (index.html) lo encontramos en el directorio.-
 
 Ingresa a la plataforma y se parte de nuestra comunidad (Plataforma en desarrollo).
 
-[Plataforma Codeando](http://codeando.org)
+[Plataforma Codeando](http://codeando.club)
 
 ## Errores y aclaraciones sobre el código
 

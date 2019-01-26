@@ -2,7 +2,7 @@ import gulp from 'gulp';
 import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
 import watch from 'gulp-watch';
-import gutil from 'gulp-util';
+import log from 'fancy-log';
 import browserify from 'browserify';
 import babel from 'gulp-babel';
 import connect from 'gulp-connect';
@@ -26,7 +26,7 @@ gulp.task('transform', () => {
 gulp.task('js', ['transform'], () => {
     return browserify('./app/dist/main.js')
         .bundle()
-        .on('error', gutil.log)
+        .on('error', log)
         .pipe(source('main.js'))
         .pipe(buffer(uglify()))
         .pipe(gulp.dest('./app'))
